@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.title h4{
+    color: #203239;
+    font-size: 36px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+/* navbar css start */
+nav{
+    background-color: #EEEDDE;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+nav .nav-logo{
+    width: 50%;
+}
+nav .custom-column-gap{
+    column-gap: 100px;
+}
+
+nav ul li a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #203239;
+}
+/* befor after */
+
+.underline {
+    position: relative;
+}
+.underline::after{
+    content: '';
+    width: 30px;
+    height: 4px;
+    border-radius: 3px;
+    background-color: #FF7527;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* navbar css end */
+/* banner css start */
+#banner{
+    background-color: #EEEDDE;
+}
+#banner .title{
+    margin-top: 100px;
+    font-size: 56px;
+    width: 777px;
+    font-weight: 600;
+    color: #203239;
+}
+#banner .para1{
+    font-size: 16px;
+    font-weight: 300;
+    width: 544px;
+    color: #203239;
+    margin-bottom: 24px;
+}
+#banner .searchbar{
+    display: flex;
+    background: #FFFFFF;
+    border-radius: 15px;
+    width: 675px;
+    margin: 56px 0;
+   
+}
+.fa-location-dot{
+    color: black;
+    font-size: 20px;
+}
+#banner .search-text{
+    font-size: 16px;
+    font-weight: 300;
+    color: rgba(32, 50, 57, 0.55);
+}
+#banner .search-btn{
+    background: #203239;
+    padding: 13px 41px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+}
+#banner h2{
+    font-size: 56px;
+    font-weight: 600;
+    color: #203239;
+}
+#banner h2 span{
+    font-size: 56px;
+    font-weight: 600;
+    color: #FF7527;
+}
+
+#banner .para2{
+    font-size: 16px;
+    font-weight: 300;
+    color: #203239;
+}
+/* banner css end */
+
+/* properti section start */
+#properti{
+    padding: 100px;
+}
+#properti .title h4{
+    width: 533px;
+    font-size: 36px;
+    font-weight: 600;
+    color: #203239;
+}
+#properti .custom-padding{
+    padding: 20px 33px;
+}
+.h2{
+    font-family: 'Poppins', sans-serif; 
+    font-size: 16px;
+    font-weight: 500;
+    color: #203239;
+}
+#properti .para1{
+    margin-bottom: 50px;
+    width: 232px;
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-size: 16px;
+    color: rgba(32, 50, 57, 0.55);
+}
+#properti .para{
+    margin-bottom: 80px;
+    width: 232px;
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-size: 16px;
+    color: rgba(32, 50, 57, 0.55);
+}
+.p-color{
+    color: #FF7527;
+    
+}
+.my-customize{
+    margin: 10%;
+}
+
+/* properti css end */
+
+/* favorit css start */
+#favorit{
+    padding: 68px 100px;
+}
+#favorit .title h5{
+    font-family: 'Poppins';
+    color: #FF7527;
+    font-size: 16px;
+    font-weight: 500;
+} 
+#favorit .title h3{
+    font-family: 'Poppins';
+    color: #203239;
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 64px;
+} 
+/* favorit css end */
