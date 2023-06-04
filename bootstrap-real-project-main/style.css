@@ -172,3 +172,29 @@ nav ul li a{
     margin-bottom: 64px;
 } 
 /* favorit css end */
+
+/* footer */
+
+.bg-secondary-admin{
+    background-color: #EEEDDE;
+}
+.border-card{
+    border: #FF7527 1px solid;
+    background-color:#EEEDDE ;
+}
+.border-card .bg-warning-admin{
+    text-decoration: none;
+    background-color: #FF7527;
+    font-weight: 600;
+    font-size: 16px;
+   
+}
+.bg-warning-admin-2{
+    background-color: #fdab7c;
+    text-decoration: none;
+    font-weight: 600;
+font-size: 16px;
+}
+.text-dark-admin{
+   color: #FF7527;
+}
